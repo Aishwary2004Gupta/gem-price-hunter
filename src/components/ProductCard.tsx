@@ -68,7 +68,7 @@ const ProductCard = ({
               Compare Prices
             </Button>
           </Link>
-          <Button variant="outline" className="w-full" size="sm">
+          <Button variant="outline" className="w-full" size="sm" onClick={() => window.location.href = "https://gem.gov.in"}>
             <ExternalLink size={14} className="mr-1" /> View on GeM
           </Button>
         </div>

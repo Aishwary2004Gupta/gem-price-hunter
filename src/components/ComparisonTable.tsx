@@ -92,10 +92,8 @@ const ComparisonTable = ({ productId, prices }: ComparisonTableProps) => {
                 )}
               </TableCell>
               <TableCell className="text-right">
-                <Button size="sm" asChild>
-                  <a href={price.url} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink size={14} className="mr-1" /> Go to Store
-                  </a>
+                <Button size="sm" onClick={() => window.location.href = price.url}>
+                  <ExternalLink size={14} className="mr-1" /> Go to Store
                 </Button>
               </TableCell>
             </TableRow>

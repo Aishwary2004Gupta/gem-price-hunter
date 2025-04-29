@@ -18,15 +18,15 @@ const Footer = () => {
               Compare GeM product prices with other e-marketplaces to find the best deals
             </p>
             <div className="mt-4 flex space-x-4">
-              <a href="#" className="text-gray-500 hover:text-primary">
+              <Link to="#" className="text-gray-500 hover:text-primary">
                 <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-500 hover:text-primary">
+              </Link>
+              <Link to="#" className="text-gray-500 hover:text-primary">
                 <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-500 hover:text-primary">
+              </Link>
+              <Link to="#" className="text-gray-500 hover:text-primary">
                 <Facebook size={20} />
-              </a>
+              </Link>
             </div>
           </div>
           <div>

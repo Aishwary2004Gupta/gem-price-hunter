@@ -41,7 +41,7 @@ const Navbar = () => {
               >
                 About
               </Link>
-              <Button variant="outline" size="sm">
+              <Button variant="outline" size="sm" onClick={() => console.log("Login clicked")}>
                 Login
               </Button>
             </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
               About
             </Link>
             <div className="px-3 py-2">
-              <Button className="w-full" size="sm">Login</Button>
+              <Button className="w-full" size="sm" onClick={() => console.log("Mobile login clicked")}>Login</Button>
             </div>
           </div>
         </div>

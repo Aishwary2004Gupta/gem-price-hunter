@@ -21,6 +21,11 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/compare" element={<CompareResults />} />
           <Route path="/product/:id" element={<ProductDetails />} />
+          <Route path="/about" element={<NotFound />} /> {/* Temporarily using NotFound for About page */}
+          <Route path="/faq" element={<NotFound />} /> {/* Temporarily using NotFound for FAQ page */}
+          <Route path="/privacy" element={<NotFound />} /> {/* Temporarily using NotFound for Privacy page */}
+          <Route path="/terms" element={<NotFound />} /> {/* Temporarily using NotFound for Terms page */}
+          <Route path="/contact" element={<NotFound />} /> {/* Temporarily using NotFound for Contact page */}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
